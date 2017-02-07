@@ -1,0 +1,24 @@
+{
+  "name": "belugacdn",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalmio/belugacdn.git"
+  },
+  "keywords": [
+    "cdn",
+    "keycdn",
+    "content delivery network"
+  ],
+  "author": "Maciej Ziehlke, Digital MIO Ltd <mac@dmio.co>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "superagent": "^3.4.1"
+  }
+}
