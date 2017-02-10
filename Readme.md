@@ -3,7 +3,8 @@
 
 
 ###Install
-```npm i belugacdn
+```
+npm i belugacdn
 ```
 
 ###Usage
@@ -25,6 +26,6 @@ belugaCdn.listSites()
   .catch(function(error) {
     console.log({error});
   });
-  ```
+```
 
-  More code v soon.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+More code v soon.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
