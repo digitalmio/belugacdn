@@ -1,6 +1,6 @@
 #Beluga CDN Client
 ##Please note that this project is in "Work in progress" state - anyhting can change here.
-
+At the moment you have an option to list/add/edit/delete sites and SSL certificates.
 
 ###Install
 ```
@@ -28,4 +28,4 @@ belugaCdn.listSites()
   });
 ```
 
-More code v soon.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+More code v soon.
