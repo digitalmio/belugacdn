@@ -56,6 +56,29 @@ class BelugaCdn {
   deleteSite(siteName, callback) {
     return this._callApi('DELETE', `sites/${siteName}`, null, callback);
   }
+
+
+  // SSL certificates
+
+  // list
+  listSslCertificates(callback) {
+    return this._callApi('GET', `ssl-certificates`, null, callback);
+  }
+
+  // create new certificate
+  addSslCertificate(data, callback) {
+    return this._callApi('POST', `ssl-certificates`, data, callback);
+  }
+
+  // update existing
+  updateSslCertificate(certificateName, data, callback) {
+    return this._callApi('PUT', `ssl-certificates/${certificateName}`, data, callback);
+  }
+
+  // delete certificate
+  deleteSslCertificate(certificateName, callback) {
+    return this._callApi('DELETE', `ssl-certificates/${certificateName}`, null, callback);
+  }
   
 }
 
