@@ -1,13 +1,13 @@
-#Beluga CDN Client
-##Please note that this project is in "Work in progress" state - anyhting can change here.
+# Beluga CDN Client
+## Please note that this project is in "Work in progress" state - anyhting can change here.
 At the moment you have an option to list/add/edit/delete sites and SSL certificates.
 
-###Install
+### Install
 ```
 npm i belugacdn
 ```
 
-###Usage
+### Usage
 ```
 const cdn = require('belugacdn');
 const belugaCdn = new cdn(username, password);
